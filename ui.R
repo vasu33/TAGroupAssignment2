@@ -11,6 +11,7 @@ ui <- shinyUI(
   fluidPage(
     
     titlePanel("TAGroupAssignment2 - ShinyApp with UDPipe NLP workflow"),
+    titlePanel(""),
     
     sidebarLayout( 
       
@@ -29,6 +30,8 @@ ui <- shinyUI(
         tabsetPanel(type = "tabs",
                     
                     tabPanel("Overview",
+                             h4('Developed By'),
+                             P("Satya Venkata Rao Bikkina - 11910016, Pavan Debbadi - 11910025, Srikeerti V - 11910020"),
                              h4(p("Data input")),
                              p("This app takes only text files which are in redable format",align="justify"),
                              p("Please refer to the link below for sample text file."),
