@@ -1,5 +1,8 @@
 # TAGroupAssignment2
 
+Run as below from Rstudio
+runGitHub(repo = "TAGroupAssignment2", username = "vasu33")
+
 Building a Shiny App around the UDPipe NLP workflow.
 
 Shiny app should have these features.
